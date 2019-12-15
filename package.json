@@ -51,6 +51,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "scripts": {
+    "build": "gulp dist",
     "lint": "gulp lint",
     "test": "gulp test",
     "prepublishOnly": "gulp babel"
